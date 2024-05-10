@@ -1,0 +1,16 @@
+name: SapmleApp
+options:
+  bundleIdPrefix: com.mineoengine
+settings: 
+  base:
+    MARKETING_VERSION: 1.0.0
+    CURRENT_PROJECT_VERSION: 1
+    DEVELOPMENT_TEAM: 8KMDCBT7AD
+targets:
+  MekuruPDF:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources: ["SampleApp"]
+    settings:
+      GENERATE_INFOPLIST_FILE: YES
