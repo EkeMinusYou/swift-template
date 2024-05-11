@@ -1,4 +1,4 @@
-name: SapmleApp
+name: SampleApp
 options:
   bundleIdPrefix: com.mineoengine
 settings: 
@@ -7,10 +7,10 @@ settings:
     CURRENT_PROJECT_VERSION: 1
     DEVELOPMENT_TEAM: 8KMDCBT7AD
 targets:
-  MekuruPDF:
+  SampleApp:
     type: application
     platform: iOS
     deploymentTarget: "17.0"
     sources: ["SampleApp"]
-    settings:
-      GENERATE_INFOPLIST_FILE: YES
+    info:
+      path: SampleApp/Info.plist
