@@ -1,6 +1,6 @@
 name: SampleApp
 options:
-  bundleIdPrefix: com.mineoengine
+  bundleIdPrefix: com.mineo-engine
 settings: 
   base:
     MARKETING_VERSION: 1.0.0
